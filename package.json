@@ -27,7 +27,7 @@
     "cli"
   ],
   "dependencies": {
-    "cordova-config": "0.6.2",
+    "cordova-config": "0.7.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
