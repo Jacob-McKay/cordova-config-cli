@@ -16,7 +16,7 @@ const cli = meow({
 		  $ cordova-config rm access-origin "*" --config=../fixtures/config.xml
 
 		Actions and config
-		  set: name desc author version android-version ios-version
+		  set: name id android-id ios-id desc author version android-version ios-version
 		  add: preference access-origin xml hook
 		  rm: access-origin
 
@@ -40,6 +40,8 @@ const COMMANDS = {
 	'rm-access-origin': 'removeAccessOrigin',
 	'add-xml': 'addRawXML',
 	'set-id': 'setID',
+	'set-android-id': 'setAndroidPackageName',
+	'set-ios-id': 'setIOSBundleIdentifier',
 	'add-hook': 'addHook'
 };
 
